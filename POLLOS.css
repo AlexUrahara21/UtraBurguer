@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ff0000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+/*estilos para el cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid;
+}
+.subtitulo{
+    background: #192ae4;
+}
+.servicios{
+    color: rgb(242, 255, 0);
+    text-align: center;
+    padding: 15px 0;
+}
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #ff0000;
+    font-size: 35px;
+}
+/*estilos del footer*/
+.pie{
+    background: #192ae4;
+    overflow: hidden;
+}
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+#nabH{
+    border: 0px solid black;
+    padding: 50px;
+    margin: 10px;
+}
+.menuH {
+    list-style: none
+}
+
+.menuH a{
+    text-decoration: none;
+    border: 3px outset rgb(0, 179, 255);
+    background-color: #192ae4;
+    color: rgb(245, 251, 61);
+    padding: 20px 50px;
+
+}
+.menuH a:hover{
+    background-color: rgb(245, 251, 61);
+    color: black;
